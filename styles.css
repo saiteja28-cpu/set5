@@ -1,0 +1,15 @@
+
+body {
+    font-family: Arial;
+    text-align: center;
+    background: lightyellow;
+}
+
+form {
+    margin: 30px;
+}
+
+input, select, button {
+    padding: 8px;
+    margin: 5px;
+}

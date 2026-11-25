@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pizza Order</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h2>Pizza Order Form</h2>
+
+<form onsubmit="return validate()">
+    Name: <input type="text" id="name"><br><br>
+
+    Pizza:
+    <select id="pizza">
+        <option value="">Select Pizza</option>
+        <option>Margherita</option>
+        <option>Farmhouse</option>
+        <option>Veggie</option>
+    </select><br><br>
+
+    Quantity:
+    <input type="number" id="qty"><br><br>
+
+    <button type="submit">Order</button>
+</form>
+
+<script src="validate.js"></script>
+</body>
+</html>
+
